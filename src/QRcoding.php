@@ -14,9 +14,6 @@ include "libs/qrlib.php";
 class QRcoding
 {
     public function make($content = null){
-
         return $content;
-
     }
-
 }
