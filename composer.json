@@ -1,0 +1,13 @@
+{
+    "name": "wcast/qrcode",
+    "description": "Gerador de QRCode",
+    "authors": [
+        {
+            "name": "Rogério Gomes",
+            "email": "rogerio.wcast@gmail.com"
+        }
+    ],
+    "require": {
+         "php": ">=5.4"         
+    }
+ }
