@@ -6,20 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit9260624a48c18b8f12c7653050f36351
 {
-    public static $prefixesPsr0 = array (
+    public static $prefixLengthsPsr4 = array (
         'Q' => 
         array (
-            'QRcode' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
-            ),
+            'QRcode\\QRcoding\\' => 16,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'QRcode\\QRcoding\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInit9260624a48c18b8f12c7653050f36351::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9260624a48c18b8f12c7653050f36351::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9260624a48c18b8f12c7653050f36351::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
