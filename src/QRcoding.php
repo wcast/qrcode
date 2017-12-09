@@ -6,7 +6,7 @@
  * Time: 4:01 PM
  */
 
-namespace QRcoding;
+namespace wcast\QRcoding;
 
 include "libs/qrlib.php";
 
